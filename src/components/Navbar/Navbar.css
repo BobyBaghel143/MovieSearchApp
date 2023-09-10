@@ -1,0 +1,77 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--dull-blue);
+  padding: 1rem;
+  background-color: var(--dull-blue);
+  color: white;
+}
+
+.navbar-wrapper div:nth-child(1) {
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.navbar-wrapper div:nth-child(2) {
+  flex-basis: 65%;
+}
+
+.navbar-wrapper div:nth-child(2) input {
+  width: 70%;
+  height: 25px;
+  padding: 10px;
+  background-color: var(--light-prime-gray);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  border-bottom: 2px solid white;
+  background: none;
+  font-size: 1.2rem;
+}
+
+.navbar-wrapper div:nth-child(3) {
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-right: 2rem;
+
+}
+
+.search-bar{
+  position: relative;
+}
+
+#result-list{
+  /* display: none; */
+   position: absolute;
+   background-color: whitesmoke;
+   color: black;
+   width: 72%;
+   border-radius: 5px;
+   max-height: 400px;
+   overflow: scroll;
+   cursor: pointer;
+   border: 1px solid var(--light-prime-gray);
+ 
+}
+
+#result-list > .autocomplete-result{
+  font-size: large;
+  letter-spacing: 0;
+  margin-bottom: 2px; 
+  padding: 1em;
+  border-bottom: 1px solid black;
+}
+
+.autocomplete-result:hover{
+  background-color: gainsboro;
+}
+
+.movie-base-title > a{
+ color:  white;
+ text-decoration: none;
+}
+
+.theme-icon{
+  font-size: xx-large;
+  cursor: pointer;
+}

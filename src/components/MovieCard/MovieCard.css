@@ -1,0 +1,45 @@
+.movie-wrapper {
+  max-width:30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px 0px;
+  background-color: var(--card-background);
+  color: var(--font-color);
+  text-align: center;
+  margin-bottom: 3rem;
+  box-shadow: 1px  1px 5px 2px gray;
+  cursor: pointer;
+}
+
+.movie-image{
+  /* padding: 1rem; */
+}
+.movie-image img{
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+  box-shadow: 1px  1px 2px 1px gray;
+}
+.movie-image img:hover{
+  transition: .9s;
+  transform: scale(1.02);
+  box-shadow: none;
+}
+
+.movie-title {
+  font-size: x-large;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  width: 70%;
+  /* color: var(--font-color-inverted); */
+  
+}
+
+.movie-year,
+.movie-type {  
+  margin-top: 1rem;
+  font-size: larger;
+  /* color: var(--font-color-inverted); */
+}
